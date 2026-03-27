@@ -25,8 +25,7 @@ const Index = () => {
 
   return (
     <>
-      <StickyNav />
-      <main className="pt-16">
+      <main>
         <Hero />
         <AboutBook />
         <AboutAuthor />
