@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { StickyNav } from "@/components/StickyNav";
+
 import { Hero } from "@/components/sections/Hero";
 import { AboutBook } from "@/components/sections/AboutBook";
 import { AboutAuthor } from "@/components/sections/AboutAuthor";
@@ -25,8 +25,7 @@ const Index = () => {
 
   return (
     <>
-      <StickyNav />
-      <main className="pt-16">
+      <main>
         <Hero />
         <AboutBook />
         <AboutAuthor />
